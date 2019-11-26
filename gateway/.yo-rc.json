@@ -6,7 +6,10 @@
     "enableSwaggerCodegen": false,
     "enableTranslation": true,
     "jhiPrefix": "jhi",
-    "languages": ["en", "fr"],
+    "languages": [
+      "en",
+      "fr"
+    ],
     "messageBroker": false,
     "nativeLanguage": "en",
     "packageName": "com.okta.developer.gateway",
@@ -16,7 +19,9 @@
     "serviceDiscoveryType": "eureka",
     "skipClient": false,
     "skipServer": false,
-    "testFrameworks": ["protractor"],
+    "testFrameworks": [
+      "protractor"
+    ],
     "websocket": false,
     "baseName": "gateway",
     "applicationType": "gateway",
@@ -35,7 +40,14 @@
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
-    "blueprints": []
+    "blueprints": [],
+    "herokuAppName": "sgaraba-gateway",
+    "herokuDeployType": "git"
   },
-  "entities": ["Blog", "Post", "Tag", "Product"]
+  "entities": [
+    "Blog",
+    "Post",
+    "Tag",
+    "Product"
+  ]
 }
